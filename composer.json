@@ -1,0 +1,17 @@
+{
+    "name": "vitalis/hello-composer",
+    "description": "A simple hello world composer package",
+    "autoload": {
+        "psr-4": {
+            "Vitalis\\HelloComposer\\": "src/HelloWorld/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ogbonna Vitalis",
+            "email": "agavitalisogbonna@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
